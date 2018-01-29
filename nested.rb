@@ -3,7 +3,14 @@ def hopper
    		{
           :grace_hopper => {
             :known_for => "COBOL",
- @@ -15,14 +15,15 @@ def hopper
+						:languages => ["COBOL", "FORTRAN"]
+         },
+         :alan_kay => {
+           :known_for => "Object Orientation",
+           :languages => ["Smalltalk", "LISP"]
+         },
+         :dennis_ritchie => {
+           :known_for => "Unix",
             :languages => ["C"]
           }
        }
@@ -19,7 +26,14 @@ def hopper
    		{
           :grace_hopper => {
             :known_for => "COBOL",
- @@ -37,10 +38,12 @@ def alan_kay_is_known_for
+						:languages => ["COBOL", "FORTRAN"]
+         },
+         :alan_kay => {
+           :known_for => "Object Orientation",
+           :languages => ["Smalltalk", "LISP"]
+         },
+         :dennis_ritchie => {
+           :known_for => "Unix",
             :languages => ["C"]
           }
        }
@@ -32,7 +46,14 @@ def hopper
    		{
           :grace_hopper => {
             :known_for => "COBOL",
- @@ -55,17 +58,18 @@ def dennis_ritchies_language
+						:languages => ["COBOL", "FORTRAN"]
+         },
+         :alan_kay => {
+           :known_for => "Object Orientation",
+           :languages => ["Smalltalk", "LISP"]
+         },
+         :dennis_ritchie => {
+           :known_for => "Unix",
             :languages => ["C"]
           }
        }
@@ -51,7 +72,13 @@ def hopper
           :grace_hopper => {
             :known_for => "COBOL",
             :languages => ["COBOL", "FORTRAN"]
- @@ -79,12 +83,12 @@ def adding_matz
+					},
+			:alan_kay => {
+				:known_for => "Object Orientation",
+				:languages => ["Smalltalk", "LISP"]
+			},
+			:dennis_ritchie => {
+				:known_for => "Unix",
             :languages => ["C"]
           }
        }
@@ -64,7 +91,14 @@ def hopper
    		{
           :grace_hopper => {
             :known_for => "COBOL",
- @@ -99,14 +103,14 @@ def changing_alan
+						:languages => ["COBOL", "FORTRAN"]
+         },
+         :alan_kay => {
+           :known_for => "Object Orientation",
+           :languages => ["Smalltalk", "LISP"]
+         },
+         :dennis_ritchie => {
+           :known_for => "Unix",
             :languages => ["C"]
           }
        }
@@ -79,7 +113,14 @@ def hopper
    		{
           :grace_hopper => {
             :known_for => "COBOL",
- @@ -121,5 +125,7 @@ def adding_to_dennis
+						:languages => ["COBOL", "FORTRAN"]
+         },
+         :alan_kay => {
+           :known_for => "Object Orientation",
+           :languages => ["Smalltalk", "LISP"]
+         },
+         :dennis_ritchie => {
+           :known_for => "Unix",
             :languages => ["C"]
           }
        }
