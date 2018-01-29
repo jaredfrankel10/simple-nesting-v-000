@@ -8,13 +8,13 @@ def hopper
           }
        }
  programmer_hash[:grace_hopper]
-  
+
  end #hopper
-  
+
  hopper
-  
+
   def alan_kay_is_known_for
- 
+
  	programmer_hash =
    		{
           :grace_hopper => {
@@ -26,7 +26,7 @@ def hopper
  		 programmer_hash[:alan_kay][:known_for]
   end
  alan_kay_is_known_for
-  
+
   def dennis_ritchies_language
  	programmer_hash =
    		{
@@ -39,9 +39,9 @@ def hopper
  		programmer_hash[:dennis_ritchie][:languages][0]
   end
  		 dennis_ritchies_language
-  
+
   def adding_matz
-  
+
  	programmer_hash =
    		{
  			# :yukihiro_matsumoto => {
@@ -58,7 +58,7 @@ def hopper
  		 programmer_hash = { :yukihiro_matsumoto => { :known_for => "Ruby", :languages => ["LISP", "C"]} }
   end
  		adding_matz
-  
+
   def changing_alan
  	programmer_hash =
    		{
@@ -68,12 +68,12 @@ def hopper
             :languages => ["C"]
           }
        }
- 
+
        alans_new_info = "GUI"
  		 programmer_hash = { :alan_kay => {:known_for => "GUI"}}
   end
  		 changing_alan
-  
+
   def adding_to_dennis
  	programmer_hash =
    		{
